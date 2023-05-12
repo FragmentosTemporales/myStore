@@ -1,12 +1,16 @@
-import MapView from "../components/mapa/MapView";
+
+import Jumbotron from "../components/jumbotron";
 
 const Home = () => {
   return (
-    <div 
-    style={{ borderRadius: "5px", minHeight: "50vh" }}
-    className="container p-5 border">
-        <h1>PRODUCTOS</h1>
-        
+    <div className="container-fluid">
+      <Jumbotron/>
+      <h1>TIENDA</h1>
+      <h1>CASCOS</h1>
+      <h1>INTERCOMUNICADORES</h1>
+      <h1>CHAQUETAS</h1>
+      <h1>RODILLERAS</h1>
+      <h1>BOTAS</h1>
     </div>
   );
 };

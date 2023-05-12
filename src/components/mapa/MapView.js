@@ -9,7 +9,7 @@ import L from 'leaflet'
 let iconUbication = new L.icon({
   iconUrl: icon,
   iconShadow: iconShadow,
-  iconSize: [50, 60],
+  iconSize: [40, 60],
   iconAnchor: [22,94],
   shadowAnchor: [22,94],
   popupAnchor: [-3, -76]
