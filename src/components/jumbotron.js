@@ -4,13 +4,12 @@ const Jumbotron = () => {
     backgroundImage: `url('https://i.ytimg.com/vi/l9ok5TVhHes/maxresdefault.jpg')`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "center"
   };
 
   return (
     <div>
-      <div className="my-2">
-        <div className="p-5 text-center" style={photo}>
+      <div className="p-5 text-center" style={photo}>
           <div className="container py-5">
             <h1 className="text-body-emphasis text-light">Somos MiStore</h1>
             <p className="col-lg-9 mx-auto lead text-light mb-5">
@@ -27,7 +26,6 @@ const Jumbotron = () => {
             </p>
           </div>
         </div>
-      </div>
     </div>
   );
 };
