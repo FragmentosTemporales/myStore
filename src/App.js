@@ -6,20 +6,29 @@ import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import Store from "./views/store";
 import About from "./views/about";
+import Product from "./views/product";
 
 function App() {
   return (
-
+    <div
+    style={{
+      backgroundImage: `url('https://wallpapercave.com/wp/wp5812312.jpg')`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+    >
       <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
           <Route path="/about" element={<About />} />
+          <Route path="/store/product/:id" element={<Product />} />
         </Routes>
         <Footer />
       </BrowserRouter>
-
+    </div>
   );
 }
 

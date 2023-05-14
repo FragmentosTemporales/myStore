@@ -63,9 +63,6 @@ const Footer = () => {
             style={{textDecoration: "none"}}
             to="/about">Sobre nosotros</Link>
             </div>
-            <div>
-              <p className="text-white">Formas de pago</p>
-            </div>
           </div>
           <div className="p-4 col-12 col-md-6 ">
             <h4 className="text-white">¿Dónde encontrarnos?</h4>

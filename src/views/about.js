@@ -1,20 +1,16 @@
 const About = () => {
   return (
-    <div
-      className="container-fluid"
-      style={{
-        backgroundImage: `url('https://picstatio.com/download/1920x1080/ebef50/dawn-aerial-view-road-highway-4k.jpg')`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="container-fluid">
       <div className="container d-flex justify-content-center">
         <div
           style={{ borderRadius: "5px", minHeight: "60vh" }}
           className="col-md-10 col-10 p-4 border shadow m-2 bg-light"
         >
-          <h1 className="text-center">PREGUNTAS FRECUENTES</h1>
+          <div className="row banner">
+            <div className="col align-self-center">
+              <h1 className="text-center text-white">PREGUNTAS FRECUENTES</h1>
+            </div>
+          </div>
           <div className="container col-10 pt-3 pb-3">
             <h4>¿QUIÉNES SOMOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
@@ -34,21 +30,27 @@ const About = () => {
           <div className="container col-10 pt-3 pb-3">
             <h4>¿DÓNDE ESTAMOS UBICADOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
-              Estamos ubicados en la comuna de San Miguel, Región Metropolitana. Si quieres ver el mapa, puedes dirigirte al pie de página.
+              Estamos ubicados en la comuna de San Miguel, Región Metropolitana.
+              Si quieres ver el mapa, puedes dirigirte al pie de página.
             </h6>
           </div>
           <hr className="border border-dark"></hr>
           <div className="container col-10 pt-3 pb-3">
             <h4>¿QUÉ MEDIOS DE PAGO ACEPTAMOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
-              Tenemos implementado el sistema de pago en efectivo y transferencia de manera presencial. Paypal, Crédito o débito sólo en página web.
+              Tenemos implementado el sistema de pago en efectivo y
+              transferencia de manera presencial. Paypal, Crédito o débito sólo
+              en página web.
             </h6>
           </div>
           <hr className="border border-dark"></hr>
           <div className="container col-10 pt-3 pb-3">
             <h4>¿COMO REALIZAMOS LAS ENTREGAS?</h4>
             <h6 style={{ textAlign: "justify" }}>
-              Las entregas fuera de Santiago se realizan 2 veces a la semana, Martes y Viernes. Se utiliza Starken o Chilexpress, dentro de la Región Metropolitana se puede gestionar la entrega directamente con el asistente de venta.
+              Las entregas fuera de Santiago se realizan 2 veces a la semana,
+              Martes y Viernes. Se utiliza Starken o Chilexpress, dentro de la
+              Región Metropolitana se puede gestionar la entrega directamente
+              con el asistente de venta.
             </h6>
           </div>
         </div>

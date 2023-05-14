@@ -1,7 +1,21 @@
-.header-gallery {
-    background-image: url('https://i.ytimg.com/vi/l9ok5TVhHes/maxresdefault.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    
+.card-img {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 2s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(3);
+  z-index: 1;
+  position: relative;
+}
+
+.banner {
+  background-image: url('https://th.bing.com/th/id/R.5a81c5db60991a8c8fe70f6e3b52a98c?rik=iLEvRQam9LkIrA&pid=ImgRaw&r=0');
+  background-repeat: 'no-repeat';
+  background-size: cover;
+  background-position: center;
+  min-height: 10vh;
 }

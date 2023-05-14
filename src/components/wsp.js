@@ -15,7 +15,8 @@ return (
               color: "#fff",
               borderRadius: "50px",
               textAlign: "center",
-              fontSize: "30px"
+              fontSize: "30px",
+              zIndex: "1",
             }}
             to="https://api.whatsapp.com/send?phone=56956172015&text=Hola, vengo del sitio miStore y tengo una consulta..." target="blank"><i class="text-white bi bi-whatsapp"></i></Link>
           </div>
