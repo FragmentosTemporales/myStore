@@ -35,20 +35,36 @@ const Footer = () => {
                 <i class="text-white bi bi-github" />
               </Link>
             </div>
+            <div className="col-3">
+              <Link to="https://www.linkedin.com/in/fragmentostemporales/"
+              target="blank"
+              >
+                <i className="text-white bi bi-linkedin"></i>
+              </Link>
+            </div>
           </div>
           <div className="p-4 col-12 col-md-3 ">
-            <h4 className="text-white">Más sobre nosotros</h4>
+            <h4 className="text-white">Enlaces</h4>
             <div>
-              <p className="text-white">Texto con enlace</p>
+              <Link 
+              className="text-white"
+              style={{textDecoration: "none"}}
+              to="/">Inicio</Link>
             </div>
             <div>
-              <p className="text-white">Texto con enlace</p>
+            <Link 
+            className="text-white"
+            style={{textDecoration: "none"}}
+            to="/store">Tienda</Link>
             </div>
             <div>
-              <p className="text-white">Texto con enlace</p>
+            <Link 
+            className="text-white"
+            style={{textDecoration: "none"}}
+            to="/about">Sobre nosotros</Link>
             </div>
             <div>
-              <p className="text-white">Texto con enlace</p>
+              <p className="text-white">Formas de pago</p>
             </div>
           </div>
           <div className="p-4 col-12 col-md-6 ">
