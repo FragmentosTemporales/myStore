@@ -3,8 +3,9 @@ import { useContext } from "react";
 import { Context } from "../store/context";
 
 function NavBar() {
-  const { store } = useContext(Context);
+  const { store, actions } = useContext(Context);
   const { cart } = store;
+  const { clearCart } = actions;
 
   return (
     <div className="row sticky-top" id="navbar">
@@ -29,15 +30,21 @@ function NavBar() {
               </button>
               <div className="dropdown-menu dropdown-menu-end">
                 {cart.length === 0 ? (
-                  <div className="dropdown-item">Carro vacío</div>
+                  <div className="dropdown-item text-center">Carro vacío</div>
                 ) : (
                   cart.map((item) => (
-                    <div key={item.nombre} className="dropdown-item">
-                      <span className="p-1">{item.nombre}</span>
-                      <span className="p-1">{item.precio}</span>
+                    <div key={item.id} className="dropdown-item container d-flex justify-content-between shadow pt-2"
+                    style={{minWidth: "300px"}}>
+                      <h6>{item.nombre}</h6> <h6> $ {item.precio}</h6>
                     </div>
                   ))
                 )}
+                <hr></hr>
+                <div className="text-center">
+                  <button className="btn btn-danger" onClick={clearCart}>
+                    <i class="bi bi-trash3"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

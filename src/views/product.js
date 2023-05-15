@@ -10,7 +10,7 @@ const Product = () => {
         <div className="container-fluid">
             <div className="container d-flex justify-content-center">
                 <div
-                    style={{ borderRadius: "5px", minHeight: "60vh" }}
+                    style={{ borderRadius: "5px", minHeight: "60vh", background:"#f8f8f8"}}
                     className="col-md-10 col-10 p-4 shadow m-2 bg-light"
                 >
                     <div className='row banner'>

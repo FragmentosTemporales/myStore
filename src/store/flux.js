@@ -56,26 +56,43 @@ const getState = ({ setStore, getActions, getStore }) => {
         {
           nombre: "AURICULAR V6 PRO",
           precio: "15.000",
-          id: 5,
+          id: 6,
           descripcion: "Repuestos v6 Pro, paquete unitario. ",
           url: "https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/333757060_5922222451230842_2315164112348441410_n.jpg?stp=dst-jpg_p960x960&_nc_cat=101&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeEVDPox0Ph-Kcw3njXN10hgzWguFZYECQnNaC4VlgQJCaN1T3zhIeFZTvR5L1Mf3Jyom18c5-Tx3NO-rRNvhPMA&_nc_ohc=Bfk-q5pM3WIAX9srylB&_nc_ht=scontent.fscl14-1.fna&oh=00_AfBONWYJAGigXr_BFlqNtMtbzKKBf4JzPLiqgzdYkSkhnw&oe=64644B67"
         },
         {
           nombre: "PINZA V6 PRO",
           precio: "7.000",
-          id: 5,
+          id: 7,
           descripcion: "Repuestos v6 Pro, paquete unitario. ",
           url: "https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/333734850_6141141112610358_7165301101975818749_n.jpg?stp=dst-jpg_p960x960&_nc_cat=105&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeHVQ_NR0UGU4SF5f042elQcN4TPqKl2rEg3hM-oqXasSCRrud18Fz2lGoSxpMf4FQzXFaXWn7I9GkIHqoLOKVjQ&_nc_ohc=9I2MxANrcEAAX8V4cMY&_nc_ht=scontent.fscl14-1.fna&oh=00_AfA3OhYaU8nV67LSLf0iXd7ZeGGI2s_0G2ZNO641IZp-wA&oe=64658489"
         }
       ],
       cascos: [],
       cart: [],
-      guantes: [],
-      chaquetas:[],
       
     },
     actions: {
+      addCart: (product) => {
+        const { cart } = getStore();
       
+        if (!cart.some(item => item.id === product.id)) {
+          const newCart = [...cart, product];
+          setStore({
+            cart: newCart
+          });
+          console.log(newCart);
+        }
+      },
+      
+      clearCart: (e) => {
+        const {cart} = getStore();
+        const newCart = []
+        setStore({
+          cart: newCart
+        })
+        console.log(cart)
+      }
     },
   };
 };

@@ -1,11 +1,8 @@
 
 const Offer = () => {
     return (
-      <div
-        className="container-fluid"
-      >
-        <div 
-        style={{ borderRadius: "5px" }}
+      <div 
+        style={{ borderRadius: "5px",  background:"#212529" }}
         className="shadow d-flex justify-content-center">
             <div id="carouselExample" 
             className="carousel slide col-md-5 col-12">
@@ -58,7 +55,6 @@ const Offer = () => {
               </button>
             </div>
             </div>
-      </div>
     );
   };
   export default Offer;

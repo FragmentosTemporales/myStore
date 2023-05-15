@@ -1,4 +1,4 @@
-import MapView from "../components/mapa/MapView";
+import MapView from "../components/map/MapView";
 import { Link } from "react-router-dom";
 import Whatsapp from "./wsp";
 
