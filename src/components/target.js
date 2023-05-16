@@ -6,7 +6,7 @@ const Target = (props) => {
       style={{ width: "18rem;" }}
     >
       <div className="row">
-        <div id="carouselExample" className="carousel slide col-md-5 col-12">
+        <div id="carouselExample" className="carousel slide col-md-6 col-12">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
