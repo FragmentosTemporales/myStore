@@ -20,7 +20,7 @@ const Whatsapp = () => {
       }}
     >
       <Link
-        to="https://api.whatsapp.com/send?phone=56956172015&text=Hola, vengo del sitio miStore y tengo una consulta..."
+        to="https://api.whatsapp.com/send?phone=56956172015&text=Hola, vengo del sitio Erre Import y tengo una consulta..."
         target="blank"
       >
         <i class="text-white bi bi-whatsapp"></i>

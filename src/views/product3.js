@@ -84,7 +84,7 @@ const Product3 = () => {
                 <h5>Valor unitario:</h5>
                 <h5 className="card-title">$ 50.000</h5>
                 <br></br>
-                <h6>Kit de intercomunicadores v7, paquete con dos unidades.</h6>
+                <h6>Kit de intercomunicadores v7, paquete unitario.</h6>
                 <h6>Alcance: 700 mts</h6>
                 <h6>Bateria: 750mh</h6>
                 <h6>Intercom: si</h6>
