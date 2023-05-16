@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../App.css";
 
-const Product = () => {
+const Product3 = () => {
   return (
     <div className="container-fluid">
       <div className="container d-flex justify-content-center">
@@ -28,21 +28,21 @@ const Product = () => {
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
-                      src="https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/329398052_9744171245608822_2643052707542626726_n.jpg?stp=dst-jpg_p960x960&_nc_cat=108&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeHpeXrvlI-ugijoiIkceSP_Wd5CKrXdUxNZ3kIqtd1TE0KMQoJ6CsNAqbZZau97eEMNiBB62e8keB2oBC7JHWwx&_nc_ohc=LMzjLd79WRQAX8g8DbZ&_nc_ht=scontent.fscl14-1.fna&oh=00_AfA9leJ57Xe7yWKDzXKre2CHbO7Dm-oQULUfvdiR7_MPCQ&oe=6465EA07"
+                      src="https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/341545530_6080935218650485_3929791252879881754_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeGAw34cz9O72RB59RRdLmIH1nHxDvb2CejWcfEO9vYJ6PGQu7bvB6zX-w62W1FzNH7FI9oYq1WeZHNel_O_7ES-&_nc_ohc=raBxKeZoFTgAX-dGqBu&_nc_ht=scontent.fscl14-1.fna&oh=00_AfDqpMtT1Inkch1aiLAPYuboRWEAPUjPZcMQVy2VWSTvBw&oe=64658EC9"
                       className="d-block w-100"
                       alt="..."
                     />
                   </div>
                   <div class="carousel-item">
                     <img
-                      src="https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/329728077_5898131300299484_497858422900834979_n.jpg?stp=dst-jpg_p960x960&_nc_cat=107&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeEfMB0Ghj8dHDgd14DL2djrtmVt-5652f-2ZW37nrnZ_6pl9kCycBlpmqb2_U1WtS1LVvtQttJC1jzHgcZhnfEs&_nc_ohc=nKJWA16V3l8AX8Qb1uF&_nc_ht=scontent.fscl14-1.fna&oh=00_AfA9n1pZazQ536l8IiTe414c9m7o8M1QM2t3p9FZcprjhA&oe=6465AF45"
+                      src="https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/340502102_5916823648439364_670102641550302299_n.jpg?stp=dst-jpg_p960x960&_nc_cat=108&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeEEmpkIXdkcvyX0oOv6Wtxi2keO-S9NafraR475L01p-h_kQuULndWjRzWRnDK7tgBREzfQwWUF-LuDhtRhq2Fe&_nc_ohc=PPBEoY45NaAAX8cWbpA&_nc_ht=scontent.fscl14-1.fna&oh=00_AfA6PkFy9Aun-0yG7dkYsEviYJ-paIGtBqSaMBC7_BgLCA&oe=6466BE3F"
                       className="d-block w-100"
                       alt="..."
                     />
                   </div>
                   <div class="carousel-item">
                     <img
-                      src="https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/329231974_6195951457116246_3049513051746012957_n.jpg?stp=dst-jpg_p960x960&_nc_cat=108&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeHZOU19yaOcb-SqFxXpwShm0trnKH-wI-jS2ucof7Aj6MrN433inleHvq7ANdSLWk0DqS-Soc0puKEPDfBhacc5&_nc_ohc=X-HPjm7MCNwAX_ql8tz&_nc_ht=scontent.fscl14-1.fna&oh=00_AfC2I11DV5MZ-vEg3sl8C2wRMGz4mCWXX6YbInjVGKk55g&oe=646585E1"
+                      src="https://scontent.fscl14-1.fna.fbcdn.net/v/t45.5328-4/341944766_6144985798913105_5494203014352520525_n.jpg?stp=dst-jpg_p960x960&_nc_cat=110&ccb=1-7&_nc_sid=c48759&_nc_eui2=AeFTY2lsY31A4s5nCRRHm9F1luEyZs904s2W4TJmz3TizVi17SSER4gAAEl6nhQ_1eru2GrCBWmncC-kCvotdH6G&_nc_ohc=YYyrPPrl9l4AX_Bm0tm&_nc_ht=scontent.fscl14-1.fna&oh=00_AfBaMoX58ieq6ck8rRxary7u_ytd_WDLFebZ2PtaxrAZbg&oe=6466D8B5"
                       className="d-block w-100"
                       alt="..."
                     />
@@ -78,17 +78,17 @@ const Product = () => {
                 style={{ borderRadius: "5px" }}
                 className="card-body col-md-6 col-12 p-3"
               >
-                <h2 className="card-title">V6 Pro</h2>
+                <h2 className="card-title">V7</h2>
                 <h3>EJEAS</h3>
                 <br></br>
                 <h5>Valor unitario:</h5>
-                <h5 className="card-title">$ 42.000</h5>
+                <h5 className="card-title">$ 50.000</h5>
                 <br></br>
-                <h6>Intercomunicador v6 Pro, paquete unitario.</h6>
-                <h6>Alcance: 1200 mts</h6>
-                <h6>Bateria: 850mh</h6>
+                <h6>Kit de intercomunicadores v7, paquete con dos unidades.</h6>
+                <h6>Alcance: 700 mts</h6>
+                <h6>Bateria: 750mh</h6>
                 <h6>Intercom: si</h6>
-                <Link to="https://www.flow.cl/btn.php?token=aemnde2">
+                <Link to="https://www.flow.cl/btn.php?token=ayi93no">
                   <img
                     src="https://www.flow.cl/img/botones/btn-pagar-celeste.png"
                     alt="pay"
@@ -105,4 +105,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Product3;

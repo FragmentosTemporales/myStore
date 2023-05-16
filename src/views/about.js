@@ -39,7 +39,7 @@ const About = () => {
             <h4>¿QUÉ MEDIOS DE PAGO ACEPTAMOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
               Tenemos implementado el sistema de pago en efectivo y
-              transferencia de manera presencial. Paypal, Crédito o débito sólo
+              transferencia de manera presencial. FLOW, Crédito o débito sólo
               en página web.
             </h6>
           </div>

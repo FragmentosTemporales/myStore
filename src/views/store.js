@@ -6,7 +6,7 @@ import '../App.css'
 
 const Store = () => {
   const { store } = useContext(Context);
-  const { intercomunicadores, repuestos, cascos } = store;
+  const { productos } = store;
   return (
     <div className="container d-flex justify-content-center">
         <div
@@ -19,10 +19,10 @@ const Store = () => {
             </div>
           </div>
           <div className="row d-flex justify-content-between mt-4">
-            <h4 className="text-dark">INTERCOMUNICADORES</h4>
+            <h4 className="text-dark">PRODUCTOS</h4>
             <hr className="border border-dark"></hr>
-            {intercomunicadores.length > 0 ? (
-              intercomunicadores.map((item) => (
+            {productos.length > 0 ? (
+              productos.map((item) => (
                 <Card
                   key={item.id}
                   nombre={item.nombre}
@@ -30,42 +30,9 @@ const Store = () => {
                   descripcion={item.descripcion}
                   id={item.id}
                   url={item.url}
-                />
-              ))
-            ) : (
-              <p>No hay productos para mostrar.</p>
-            )}
-          </div>
-          <div className="row d-flex justify-content-between mt-4">
-            <h4 className="text-dark">CASCOS</h4>
-            <hr className="border border-dark"></hr>
-            {cascos.length > 0 ? (
-              cascos.map((item) => (
-                <Card
-                  key={item.id}
-                  nombre={item.nombre}
-                  precio={item.precio}
-                  descripcion={item.descripcion}
-                  id={item.id}
-                  url={item.url}
-                />
-              ))
-            ) : (
-              <p>No hay productos para mostrar.</p>
-            )}
-          </div>
-          <div className="row d-flex justify-content-between mt-4">
-            <h4 className="text-dark">REPUESTOS</h4>
-            <hr className="border border-dark"></hr>
-            {repuestos.length > 0 ? (
-              repuestos.map((item) => (
-                <Card
-                  key={item.id}
-                  nombre={item.nombre}
-                  precio={item.precio}
-                  descripcion={item.descripcion}
-                  id={item.id}
-                  url={item.url}
+                  marca={item.marca}
+                  path={item.path}
+                  flow={item.flowurl}
                 />
               ))
             ) : (
