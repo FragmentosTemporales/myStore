@@ -58,7 +58,7 @@ const Target = (props) => {
 
         <div
           style={{ borderRadius: "5px" }}
-          className="card-body col-md-6 col-12"
+          className="card-body col-md-6 col-12 p-3"
         >
           <h2 className="card-title">EJEAS v6 Pro</h2>
           <br></br>
