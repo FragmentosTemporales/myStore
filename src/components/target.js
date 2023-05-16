@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Target = (props) => {
   return (
     <div
@@ -68,6 +69,9 @@ const Target = (props) => {
           <h6>Bateria: 850mh</h6>
           <h6>Cámara: no</h6>
           <h6>Intercom: si</h6>
+          <Link to="https://www.flow.cl/app/web/pagarBtnPago.php?token=6tmgwar">
+          <img src="https://www.flow.cl/img/botones/btn-pagar-celeste.png" alt="pay"></img>
+          </Link>
 
           <div className="d-flex justify-content-between">
           </div>

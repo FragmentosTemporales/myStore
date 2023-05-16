@@ -10,9 +10,9 @@ const Footer = () => {
     >
       <div className="container flex-column p-4">
         <div className="row  col-12">
-          <div className="p-4 col-12 col-md-3 ">
+          <div className="p-4 col-12 col-md-3">
             <h4 className="text-white">Contáctanos</h4>
-            <div className="col-3">
+            <div className="col-1 d-flex  social pt-3">
               <Link
                 to="https://www.instagram.com/fragmentos_temporales/"
                 target="blank"
@@ -20,7 +20,7 @@ const Footer = () => {
                 <i className="text-white bi bi-instagram"></i>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-1 d-flex  social pt-3">
               <Link
                 to="https://www.facebook.com/fragmentos.temporales"
                 target="blank"
@@ -28,14 +28,14 @@ const Footer = () => {
                 <i className="text-white bi bi-facebook"></i>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-1 d-flex  social pt-3">
               <Link to="https://github.com/FragmentosTemporales"
               target="blank"
               >
                 <i class="text-white bi bi-github" />
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-1 d-flex  social pt-3">
               <Link to="https://www.linkedin.com/in/fragmentostemporales/"
               target="blank"
               >

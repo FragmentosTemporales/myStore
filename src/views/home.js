@@ -1,3 +1,4 @@
+import Dispatch from "../components/dispatch";
 import Offer from "../components/offer";
 import ToStore from "../components/toStore";
 
@@ -15,6 +16,8 @@ const Home = () => {
           </h3>
           <hr></hr>
           <Offer />
+          <hr></hr>
+          <Dispatch/>
         </div>
       </div>
   );

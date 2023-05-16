@@ -19,3 +19,16 @@
   background-position: center;
   min-height: 10vh;
 }
+.social {
+  transition: 1s;
+}
+.social:hover {
+  transform: scale(2);
+}
+
+.wsp {
+  transition: 1s;
+}
+.wsp:hover {
+  transform: scale(1.5);
+}

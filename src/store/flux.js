@@ -1,5 +1,4 @@
 
-
 const getState = ({ setStore, getActions, getStore }) => {
   return {
     store: {
@@ -84,7 +83,15 @@ const getState = ({ setStore, getActions, getStore }) => {
           console.log(newCart);
         }
       },
+      removeFromCart: (product) => {
+        const { cart } = getStore();
       
+        const updatedCart = cart.filter(item => item.id !== product.id);
+        setStore({
+          cart: updatedCart
+        });
+        console.log(updatedCart);
+      },
       clearCart: (e) => {
         const {cart} = getStore();
         const newCart = []
