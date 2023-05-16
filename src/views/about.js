@@ -14,14 +14,14 @@ const About = () => {
           <div className="container col-10 pt-3 pb-3">
             <h4>¿QUIÉNES SOMOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
-              MiStore es una empresa fundada en 2020 que se especializa en la
+              Erre Import es una empresa fundada en 2020 que se especializa en la
               venta de accesorios para motociclistas, destacándose en
               intercomunicadores y sus repuestos. Ofrecemos productos de alta
               calidad a precios competitivos, y trabajamos con las principales
               marcas del mercado. Además, contamos con un equipo de
               profesionales experimentados en el sector de la motocicleta, lo
               que nos permite brindar un servicio personalizado y de alta
-              calidad a nuestros clientes. En MiStore, estamos comprometidos con
+              calidad a nuestros clientes. En Erre Import, estamos comprometidos con
               la satisfacción de nuestros clientes y nos esforzamos por ofrecer
               la mejor experiencia de compra posible.
             </h6>
