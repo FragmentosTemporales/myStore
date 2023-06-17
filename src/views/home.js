@@ -1,6 +1,7 @@
 import Dispatch from "../components/dispatch";
 import Offer from "../components/offer";
 import ToStore from "../components/toStore";
+import "../App.css"
 
 const Home = () => {
   return (
@@ -11,9 +12,9 @@ const Home = () => {
         >
           <ToStore/>
           <hr></hr>
-          <h3 className="text-center bg-danger text-white shadow">
-            PRODUCTOS DESTACADOS
-          </h3>
+          <h1 className="text-center bg-danger text-white shadow banner py-3">
+            EN SU MEJOR PRECIO
+          </h1>
           <hr></hr>
           <Offer />
           <hr></hr>

@@ -7,12 +7,15 @@ function NavBar() {
     <div className="row sticky-top" id="navbar">
       <nav
         className="navbar navbar-expand-lg d-flex justify-content-center shadow"
-        style={{ backgroundColor: "#393939" }}
+        style={{ backgroundColor: "#a6a6a6" }}
       >
         <div className="d-flex justify-content-center">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <h1 className="text-white">Erre Import</h1>
+          <img style={{maxHeight: "80px"}} src="https://i.postimg.cc/8cm2dg2n/logo-Peque-a.png" alt="logo"/>
           </Link>
+        </div>
+        <div>
+          
         </div>
       </nav>
     </div>

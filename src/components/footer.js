@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <nav
       className="navbar navbar-expand-lg "
-      style={{ backgroundColor: "#393939" }}
+      style={{ backgroundColor: "#a6a6a6" }}
     >
       <div className="container flex-column p-4">
         <div className="row  col-12">

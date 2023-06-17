@@ -18,12 +18,9 @@
   background-size: cover;
   background-position: center;
   min-height: 10vh;
-}
-.social {
-  transition: 1s;
-}
-.social:hover {
-  transform: scale(2);
+  }
+.banner:hover {
+  opacity:.4;
 }
 
 .wsp {

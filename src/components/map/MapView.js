@@ -3,16 +3,17 @@ import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./map.css";
 import icon from "leaflet/dist/images/marker-icon.png";
-import iconShadow from "leaflet/dist/images/marker-icon.png";
+import iconShadow from "leaflet/dist/images/marker-shadow.png";
 import L from "leaflet";
 import { Link } from "react-router-dom";
 
 let iconUbication = new L.icon({
   iconUrl: icon,
+  iconRetinaUrl: icon,
   iconShadow: iconShadow,
-  iconSize: [40, 60],
-  iconAnchor: [22, 94],
-  shadowAnchor: [22, 94],
+  iconSize: [25, 41],
+  iconAnchor: [12.5, 41],
+  shadowSize: [41, 41],
   popupAnchor: [-3, -76],
 });
 
