@@ -1,4 +1,3 @@
-import MapView from "../components/map/MapView";
 import { Link } from "react-router-dom";
 import Whatsapp from "./wsp";
 
@@ -9,18 +8,15 @@ const Footer = () => {
       style={{ backgroundColor: "#a6a6a6" }}
     >
       <div className="container flex-column p-4">
-        <div className="row  col-12">
-          <div className="p-4 col-12 col-md-3">
+        <div className="row col-12">
+          <div className="col-12 col-md-6">
             <h4 className="text-white">Contáctanos</h4>
-            <div className="col-1 d-flex social pt-3">
-              <Link
-                to="https://www.instagram.com/erre_import/"
-                target="blank"
-              >
+            <div className="col-1 d-flex">
+              <Link to="https://www.instagram.com/erre_import/" target="blank">
                 <i className="text-white bi bi-instagram"></i>
               </Link>
             </div>
-            <div className="col-1 d-flex  social pt-3">
+            <div className="col-1 d-flex">
               <Link
                 to="https://www.facebook.com/fragmentos.temporales"
                 target="blank"
@@ -28,51 +24,48 @@ const Footer = () => {
                 <i className="text-white bi bi-facebook"></i>
               </Link>
             </div>
-            <div className="col-1 d-flex  social pt-3">
-              <Link to="https://github.com/FragmentosTemporales"
-              target="blank"
+            <div className="col-1 d-flex">
+              <Link
+                to="https://www.facebook.com/fragmentos.temporales"
+                target="blank"
               >
-                <i class="text-white bi bi-github" />
-              </Link>
-            </div>
-            <div className="col-1 d-flex  social pt-3">
-              <Link to="https://www.linkedin.com/in/fragmentostemporales/"
-              target="blank"
-              >
-                <i className="text-white bi bi-linkedin"></i>
+                <i className="text-white bi bi-tiktok"></i>
               </Link>
             </div>
           </div>
-          <div className="p-4 col-12 col-md-3 ">
+          <div className="col-12 col-md-6">
             <h4 className="text-white">Enlaces</h4>
             <div>
-              <Link 
-              className="text-white"
-              style={{textDecoration: "none"}}
-              to="/">Inicio</Link>
+              <Link
+                className="text-white"
+                style={{ textDecoration: "none" }}
+                to="/"
+              >
+                Inicio
+              </Link>
             </div>
             <div>
-            <Link 
-            className="text-white"
-            style={{textDecoration: "none"}}
-            to="/store">Tienda</Link>
+              <Link
+                className="text-white"
+                style={{ textDecoration: "none" }}
+                to="/store"
+              >
+                Tienda
+              </Link>
             </div>
             <div>
-            <Link 
-            className="text-white"
-            style={{textDecoration: "none"}}
-            to="/about">Sobre nosotros</Link>
-            </div>
-          </div>
-          <div className="p-4 col-12 col-md-6 ">
-            <h4 className="text-white">¿Dónde encontrarnos?</h4>
-            <div className="">
-              <MapView />
+              <Link
+                className="text-white"
+                style={{ textDecoration: "none" }}
+                to="/about"
+              >
+                Sobre nosotros
+              </Link>
             </div>
           </div>
         </div>
-        <div className="row  col-12">
-          <div className="p-4 col-12 col-md-12  text-center">
+        <div className="row col-12">
+          <div className="col-12 col-md-12 py-2 text-center">
             <p className="text-white">
               Erre Import. - San Miguel 851 - Tel. 56 9 56172015
             </p>

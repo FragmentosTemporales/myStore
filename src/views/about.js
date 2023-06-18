@@ -1,3 +1,4 @@
+import MapView from "../components/map/MapView";
 const About = () => {
   return (
     <div className="container-fluid">
@@ -31,8 +32,9 @@ const About = () => {
             <h4>¿DÓNDE ESTAMOS UBICADOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
               Estamos ubicados en la comuna de San Miguel, Región Metropolitana.
-              Si quieres ver el mapa, puedes dirigirte al pie de página.
+              Las estaciones de Metro más cercanas son "San Miguel" y "El Llano", a continuación un mapa de referencia:
             </h6>
+            <MapView/>
           </div>
           <hr className="border border-dark"></hr>
           <div className="container col-10 pt-3 pb-3">
