@@ -1,4 +1,4 @@
-const Dispatch = () => {
+const Dispatch = (props) => {
   return (
     <div
       style={{ borderRadius: "5px", minHeight: "10vh" }}
@@ -8,7 +8,7 @@ const Dispatch = () => {
         className="row banner"
       >
         <div className="col align-self-center">
-        <h1 className="text-center text-white">ENVÍO A TODO CHILE  VALOR PLANO $5.000</h1>
+        <h1 className="text-center text-white">{props.text}</h1>
         </div>
       </div>
     </div>

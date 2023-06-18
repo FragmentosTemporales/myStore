@@ -9,7 +9,7 @@ const ToStore = () => {
 
   useEffect(() => {
     getProducts();
-  }, []);
+  }, [getProducts()]);
 
   function getProducts() {
     return products.map((item) => (

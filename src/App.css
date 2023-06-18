@@ -13,14 +13,19 @@
 }
 
 .banner {
-  background-image: url('https://th.bing.com/th/id/R.5a81c5db60991a8c8fe70f6e3b52a98c?rik=iLEvRQam9LkIrA&pid=ImgRaw&r=0');
+  background-color: #2b3651 ;
   background-repeat: 'no-repeat';
   background-size: cover;
   background-position: center;
   min-height: 10vh;
   }
-.banner:hover {
-  opacity:.4;
+
+
+.social:hover {
+  transform: scale(3);
+}
+.social {
+  transition: 1.5s;
 }
 
 .wsp {
@@ -28,4 +33,11 @@
 }
 .wsp:hover {
   transform: scale(1.5);
+}
+.payment {
+  max-height: 30px;
+}
+.flowBanner {
+  height: 60px;
+  max-width: 500px;
 }
