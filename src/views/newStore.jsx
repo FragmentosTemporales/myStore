@@ -5,8 +5,8 @@ import Dispatch from "../components/dispatch";
 import { Link } from "react-router-dom";
 
 function NewStore() {
-  const { store } = useContext(Context);
-  const { products } = store;
+  const {store} = useContext(Context);
+  const {products} = store;
   const [filter, setFilter] = useState("");
   const [filtered, setFiltered] = useState([]);
 

@@ -19,15 +19,7 @@ const Footer = () => {
             </div>
             <div className="mx-4 social">
               <Link
-                to="https://www.facebook.com/fragmentos.temporales"
-                target="blank"
-              >
-                <i className="text-white bi bi-facebook"></i>
-              </Link>
-            </div>
-            <div className="mx-4 social">
-              <Link
-                to="https://www.facebook.com/fragmentos.temporales"
+                to="https://www.tiktok.com/@erre_import?_t=8dHu9KuEOFq&_r=1"
                 target="blank"
               >
                 <i className="text-white bi bi-tiktok"></i>

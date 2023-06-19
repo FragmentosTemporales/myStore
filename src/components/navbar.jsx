@@ -18,14 +18,16 @@ function NavBar() {
           >
             MENU
           </button>
-          <ul className="dropdown-menu">
+          <ul 
+          style={{borderRadius:"0", minWidth:"300px"}}
+          className="dropdown-menu">
             <li>
               <Link
                 className="dropdown-item"
                 style={{ textDecoration: "none" }}
                 to="/"
               >
-                Inicio
+                <h6>INICIO</h6>
               </Link>
             </li>
             <li>
@@ -34,7 +36,7 @@ function NavBar() {
                 style={{ textDecoration: "none" }}
                 to="/store"
               >
-                Tienda
+                <h6>TIENDA</h6>
               </Link>
             </li>
             <li>
@@ -43,7 +45,7 @@ function NavBar() {
                 style={{ textDecoration: "none" }}
                 to="/about"
               >
-                Sobre nosotros
+                <h6>INFORMACION</h6>
               </Link>
             </li>
           </ul>

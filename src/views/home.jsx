@@ -1,7 +1,6 @@
 import Dispatch from "../components/dispatch";
 import ToStore from "../components/toStore";
 import Payment from "../components/payment";
-import FlowBanner from "../components/flowBanner";
 import DispatchOptions from "../components/dispatchOptions";
 
 const Home = () => {
@@ -12,8 +11,6 @@ const Home = () => {
           <Dispatch
           text="MEDIOS DE PAGO DIGITAL"/>
           <br></br>
-          <FlowBanner/>
-          <hr></hr>
           <Payment/>
           <br></br>
           <Dispatch

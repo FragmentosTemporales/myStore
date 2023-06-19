@@ -13,8 +13,7 @@ const Product = () => {
   useEffect(() => {
     productSelected();
   });
-  useEffect(() => {
-  }, [product]);
+  useEffect(() => {}, [product]);
 
   const productSelected = () => {
     const productId = parseInt(id);
@@ -27,24 +26,36 @@ const Product = () => {
   };
 
   return (
-    <div style={{ minHeight: "100vh"}} className="container py-5">
-      <div  className="row col-12 shadow-lg bg-light">
+    <div style={{ minHeight: "100vh" }} className="container py-5">
+      <div className="row col-12 shadow-lg bg-light">
         <div className="col-md-6 col-12 px-0">
           <Carousel
-          first= {product.first}
-          second= {product.second}
-          third= {product.third}
+            first={product.first}
+            second={product.second}
+            third={product.third}
           />
         </div>
         <div className="col-md-6 col-12 ">
-          <h1>{product.name}</h1>
-          <h3>{product.brand}</h3>
-          <h5>{product.description}</h5>
-          <br/>
-          <h2>{product.price}</h2>
-          <br/>
-          <Link target="blank" to={product.url}><img  src="https://www.flow.cl/img/botones/btn-pagar-negro.png" alt="https://www.flow.cl/img/botones/btn-pagar-negro.png"/></Link>
-          
+          <div className="py-5">
+            <h1>{product.name}</h1>
+            <hr />
+            <h3>Marca: {product.brand}</h3>
+            <hr />
+            <h5>Descripción:</h5>
+            <h5>{product.description}</h5>
+            <br />
+            <hr />
+            <div className="pt-5 mt-5">
+              <h2>Valor: ${product.price}</h2>
+              <br />
+              <Link target="blank" to={product.url}>
+                <img
+                  src="https://www.flow.cl/img/botones/btn-pagar-negro.png"
+                  alt="https://www.flow.cl/img/botones/btn-pagar-negro.png"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

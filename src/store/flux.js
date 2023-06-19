@@ -50,7 +50,7 @@ const getState = ({ setStore, getActions, getStore }) => {
         },
         {
           id: 4,
-          name: "R1 PLUS",
+          name: "R1 Plus",
           brand: "FREEDCONN",
           price: "120.000",
           description: "Intercomunicador R1 Plus, paquete unitario. ",
@@ -64,7 +64,7 @@ const getState = ({ setStore, getActions, getStore }) => {
           category: "Intercomunicador",
         },
         {
-          name: "CARGADOR",
+          name: "Cargador",
           price: "7.000",
           brand: "EJEAS",
           id: 5,
@@ -79,11 +79,11 @@ const getState = ({ setStore, getActions, getStore }) => {
           category: "Repuesto",
         },
         {
-          name: "AURICULAR",
+          name: "Auricular",
           price: "12.000",
           brand: "EJEAS",
           id: 6,
-          description: "Repuestos v6 Pro.",
+          description: "Auricular de repuesto para v6 Pro.",
           first:
             "https://i.postimg.cc/j2L304cz/1000011620-1102fedec24086004b33a227df3d57e2-9-3-2023-17-38-16.jpg",
           second:
@@ -94,11 +94,11 @@ const getState = ({ setStore, getActions, getStore }) => {
           category: "Repuesto",
         },
         {
-          name: "PINZA",
+          name: "Soporte",
           price: "7.000",
           brand: "EJEAS",
           id: 7,
-          description: "Repuestos v6 Pro.",
+          description: "Soporte de repuesto de v6 Pro.",
           first:
             "https://i.postimg.cc/25rH8DTj/1000011621-52c2fa48548ad3d69305836e846671f7-9-3-2023-17-40-17.jpg",
           second:
@@ -109,9 +109,9 @@ const getState = ({ setStore, getActions, getStore }) => {
           category: "Repuesto",
         },
         {
-          name: "GUANTE CORTO",
+          name: "Guante Corto Negro",
           price: "32.000",
-          brand: "BULL",
+          brand: "FURYGAN",
           id: 8,
           description:
             "Guante corto de cuero y fibra de carbono. Disponible en blanco y negro.",
@@ -125,12 +125,12 @@ const getState = ({ setStore, getActions, getStore }) => {
           category: "Vestimenta",
         },
         {
-          name: "GUANTE LARGO",
+          name: "Guante Largo Negro",
           price: "42.000",
-          brand: "BULL",
+          brand: "FURYGAN",
           id: 9,
           description:
-            "Guante largo de cuero y fibra de carbono. Disponible en blanco y negro.",
+            "Guante largo de cuero y fibra de carbono. Disponible en M y L.",
           first:
             "https://i.postimg.cc/J7X4WncZ/Whats-App-Image-2023-06-13-at-03-27-19-1.jpg",
           second:
@@ -156,7 +156,7 @@ const getState = ({ setStore, getActions, getStore }) => {
           category: "Vestimenta",
         },
         {
-          name: "SOPORTE CELULAR",
+          name: "Soporte Celular",
           price: "26.000",
           brand: "MOTOWOLF",
           id: 11,
@@ -167,6 +167,66 @@ const getState = ({ setStore, getActions, getStore }) => {
             "https://i.postimg.cc/gJCzZFdx/Whats-App-Image-2023-06-13-at-03-27-20-1.jpg",
           third:
             "https://i.postimg.cc/gJCzZFdx/Whats-App-Image-2023-06-13-at-03-27-20-1.jpg",
+          url: "",
+          category: "Accesorio",
+        },
+        {
+          id: 12,
+          name: "Guante Corto Blanco",
+          brand: "FURYGAN",
+          price: "32.000",
+          description: "Guante corto de cuero y fibra de carbono. Disponible en M y L.",
+          first:
+            "https://i.postimg.cc/Xv8DSfJx/20230619000915-IMG-8659-01.jpg",
+          second:
+            "https://i.postimg.cc/Mp1Ft2JC/20230619000934-IMG-8660-01.jpg",
+          third:
+            "https://i.postimg.cc/Mp1Ft2JC/20230619000934-IMG-8660-01.jpg",
+          url: "",
+          category: "Vestimenta",
+        },
+        {
+          id: 15,
+          name: "Guante Largo Blanco",
+          brand: "FURYGAN",
+          price: "42.000",
+          description: "Guante largo de cuero y fibra de carbono. Disponible en M y L.",
+          first:
+            "https://i.postimg.cc/tgymMSXY/20230619000752-IMG-8656-01.jpg",
+          second:
+            "https://i.postimg.cc/CLBtBnPL/20230619000818-IMG-8657-01.jpg",
+          third:
+            "https://i.postimg.cc/CLBtBnPL/20230619000818-IMG-8657-01.jpg",
+          url: "",
+          category: "Vestimenta",
+        },
+        {
+          id: 13,
+          name: "Rollidera Racing",
+          brand: "KOMINE",
+          price: "42.000",
+          description: "Rodillera con protección en dos puntos, Plástico y PVC.",
+          first:
+            "https://i.postimg.cc/d1VNqhZF/20230619001107-IMG-8662-01.jpg",
+          second:
+            "https://i.postimg.cc/hPZ2rDYZ/Whats-App-Image-2023-06-18-at-23-30-48-Peque-a.jpg",
+          third:
+            "https://i.postimg.cc/htJp3FWD/Whats-App-Image-2023-06-18-at-23-30-49-Peque-a.jpg",
+          url: "",
+          category: "Vestimenta",
+        },
+        {
+          id: 14,
+          name: "Llavero PLAY",
+          brand: "TOP ONE",
+          price: "2.700",
+          description: "Llavero astronauta, variedad de colores.",
+          first:
+            "https://i.postimg.cc/7Yw9DCFW/20230619000606-IMG-8654-01.jpg",
+          second:
+            "https://i.postimg.cc/sxFn5w0j/20230619000528-IMG-8653-01.jpg",
+          third:
+            "https://i.postimg.cc/yYMGF6th/20230619000343-IMG-8649-01.jpg",
           url: "",
           category: "Accesorio",
         },
