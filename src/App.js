@@ -4,9 +4,10 @@ import injectContext from "./store/context";
 import Home from "./views/home";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
-import Store from "./views/store";
 import About from "./views/about";
 import Product from "./views/product";
+import NewStore from "./views/newStore";
+
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
+          <Route path="/store" element={<NewStore />} />
           <Route path="/about" element={<About />} />
           <Route path="/store/product/:id" element={<Product/>} />
         </Routes>

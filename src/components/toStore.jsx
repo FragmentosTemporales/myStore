@@ -9,7 +9,7 @@ const ToStore = () => {
 
   useEffect(() => {
     getProducts();
-  }, [getProducts()]);
+  }, []);
 
   function getProducts() {
     return products.map((item) => (
@@ -25,7 +25,7 @@ const ToStore = () => {
   return (
     <Link 
     style={{ textDecoration: "none"}} to="/store">
-      <h1 className="text-center text-white banner py-3">VISITA NUESTRA TIENDA</h1>
+      <h1 className="text-center text-white banner shadow py-3">VISITA NUESTRA TIENDA</h1>
       <div className="container col-md-6 col-12  d-flex justify-content-center my-4">
       <div
         id="carouselStore"

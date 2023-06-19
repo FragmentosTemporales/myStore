@@ -5,16 +5,8 @@ const About = () => {
   
 
   return (
-    <div className="container-fluid">
-      <div className="container d-flex justify-content-center">
-        <div
-          style={{
-            borderRadius: "5px",
-            minHeight: "60vh",
-            background: "#f8f8f8",
-          }}
-          className="col-md-10 col-10 p-4 border shadow m-2 bg-white"
-        >
+    <div className="container-fluid d-flex justify-content-center">
+      <div className="col-md-10 col-10 p-4 border shadow m-2 bg-white">
           <div className="row banner">
             <div className="col align-self-center">
               <h1 className="text-center text-white">PREGUNTAS FRECUENTES</h1>
@@ -66,7 +58,6 @@ const About = () => {
             </h6>
             <DispatchOptions/>
           </div>
-        </div>
       </div>
     </div>
   );

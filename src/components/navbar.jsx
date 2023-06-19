@@ -10,13 +10,13 @@ function NavBar() {
       >
         <div className="dropdown col-6 d-flex justify-content-start">
           <button
-            style={{ background: "#2b3651", color: "white" }}
+            style={{ background: "#2b3651", color: "white", borderRadius:"0" }}
             className="btn shadow dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Enlaces
+            MENU
           </button>
           <ul className="dropdown-menu">
             <li>
