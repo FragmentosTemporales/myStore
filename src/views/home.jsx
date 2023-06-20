@@ -1,4 +1,3 @@
-import Dispatch from "../components/dispatch";
 import ToStore from "../components/toStore";
 import Payment from "../components/payment";
 import DispatchOptions from "../components/dispatchOptions";
@@ -6,15 +5,16 @@ import DispatchOptions from "../components/dispatchOptions";
 const Home = () => {
   return (
     <div className="container-fluid d-flex justify-content-center">
-        <div className="col-md-10 col-10 p-4 border shadow m-2 bg-white">
+        <div className="col-md-12 col-12 p-4 shadow m-2 bg-white">
           <ToStore/>
-          <Dispatch
-          text="MEDIOS DE PAGO DIGITAL"/>
-          <br></br>
+          <hr />
+          <h1 className="text-center">MEDIOS DE PAGO DIGITAL</h1>
+          <hr />
           <Payment/>
           <br></br>
-          <Dispatch
-          text="DESPACHO A TODO CHILE"/>
+          <hr />
+          <h1 className="text-center">DESPACHO A TODO CHILE</h1>
+          <hr />
           <DispatchOptions/>
         </div>
       </div>

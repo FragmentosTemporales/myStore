@@ -6,12 +6,9 @@ const About = () => {
 
   return (
     <div className="container-fluid d-flex justify-content-center">
-      <div className="col-md-10 col-10 p-4 border shadow m-2 bg-white">
-          <div className="row banner">
-            <div className="col align-self-center">
-              <h1 className="text-center text-white">PREGUNTAS FRECUENTES</h1>
-            </div>
-          </div>
+      <div className="col-md-12 col-12 p-4 border shadow m-2 bg-white">
+          <h1 className="text-center">PREGUNTAS FRECUENTES</h1>
+          <hr />
           <div className="container col-10 pt-3 pb-3">
             <h4>¿QUIÉNES SOMOS?</h4>
             <h6 style={{ textAlign: "justify" }}>
